@@ -1,1 +1,1 @@
-# htu_tailwind
+# HOw to use tailwind
