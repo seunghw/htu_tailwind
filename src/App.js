@@ -2,16 +2,14 @@ import "./index";
 
 function App() {
   return (
-    <div className="App">
-      <header className="text-gray-100 bg-blue-500 text-center p-5 align-middle">
-        redux-saga를 연습해 봅시다
-      </header>
-      <div className="pl-10 pt-10 text-xl">
-        초기 데이터를 이곳에 보여줘야 합니다.
+    <div class="h-screen flex items-center">
+      <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
+        <div class="flex-shrink-0"></div>
+        <div>
+          <div class="text-xl font-medium text-black">ChitChat</div>
+          <p class="text-gray-500">You have a new message!</p>
+        </div>
       </div>
-      <button className="p-3 border m-10 rounded-xl bg-blue-100">
-        데이터 불러오기
-      </button>
     </div>
   );
 }
